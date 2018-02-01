@@ -1,0 +1,394 @@
+.backgroundLayer{
+    z-index: -100;
+    background-color: black;
+	position: absolute;
+    width: 1500%;
+    height: 1500%;
+	top: 0px;
+}
+
+.headReal{
+    top:22%;
+    position: absolute;
+    right: 50%;
+    background-color: bisque;
+    height: 300px;
+    width: 300px;
+    border: solid 20px bisque;
+    border-radius: 50%;
+}
+
+
+.hairtop{
+    position: relative;
+    background: linear-gradient(-90deg, rgb(206, 255, 0), rgb(216, 255, 0), rgb(148, 230, 52), rgba(235, 255, 0, 0.7), rgb(255, 242, 89), rgb(186, 255, 0));
+    height: 700px;
+    width: 475px;
+    border-radius: 75%;
+    bottom:65%;
+    z-index: -1;
+    left: -27%;
+}
+
+.haircurls{
+    position: absolute;
+    background-color: rgb(0, 255, 29);
+    height: 300px;
+    width: 300px;
+    border: solid 20px rgb(0, 255, 29);
+    border-radius: 10%;
+    bottom:50%;
+    z-index: -1;
+    left: -8%;
+    
+}
+/*
+.hairleft{
+    position: relative;
+    background-color: rgb(0, 255, 29);
+    height: 50px;
+    width: 300px;
+    right: 95%;
+*/
+    
+    
+    
+    
+    
+}
+
+.hairright{
+    
+    
+}
+
+.ear{
+    position: relative;
+    background-color: bisque;
+    height: 50px;
+    width: 80px;
+    right: 20%;
+    border-radius: 100px 20px;
+    top: 45%;
+    
+}
+#earright{
+    left:95%;
+    border-radius: 20px 100px;
+    top:28%
+    
+}
+
+.eye{
+    position: absolute;
+    background: rgba(0, 245, 255, 0.88);
+    height: 60px;
+    width: 60px;
+    border: solid 5px rgb(255, 255, 255);
+    border-radius: 59%;
+
+    
+    
+    
+    
+    
+    
+}
+#left{
+    top: 25%;
+    left: 10%;
+}
+
+#right{
+     top: 25%;
+     right: 10%;
+}
+
+.mouth{
+    position: absolute;
+    background-color: rgb(255, 107, 107);
+    height: 23px;
+    width: 35px;
+    border: solid 3px rgba(255, 255, 255, 0.96);
+    border-radius: 40%;
+    top: 70%;
+    left: 45%;
+    
+    
+}
+
+.breast{
+    position: absolute;
+    z-index: 1;
+    width: 29%;
+    height: 29%;
+    background: linear-gradient(360deg, #ffff7b, #ffc400, #ffe348, #ffff7b);
+    top:145.5%;
+    left: 38.5%;
+    border-radius: 50%;
+}
+#breastright
+{
+    left: 55%;
+    
+}
+
+.nose{
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    height: 22px;
+    width: 5px;
+    border: solid 2px white;
+    border-radius: 40%;
+    top: 50%;
+    left: 45%;
+    
+}
+
+
+#torso2{
+    background-color: bisque;
+    width: 85%;
+    height: 160%;
+    left: 10%;
+}
+.skin{
+    
+}
+
+.eyebrow{
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    height: 5px;
+    width: 55px;
+    border: solid 2px white;
+    border-radius: 20%;
+    top: 20%;
+}
+
+#eyebrowright{
+    right: 13%; 
+}
+
+#eyebrowleft{
+    left: 13%;
+}
+
+.arm{
+    position: absolute;
+    z-index: -2;
+    width: 30%;
+    height: 185%;
+    background: radial-gradient(circle, rgb(255, 208, 154),  bisque);
+    top:125.5%;
+    left: -28%;
+    border-radius: 35%;
+    
+
+    
+}
+
+#armright{
+    left: 101.5%;
+}
+/*
+.shoulder{
+    position: absolute;
+    width: 15%;
+    height: 17%;
+    background-color: bisque;
+    top:115.5%;
+    left: 20%;
+    border-radius: 25%;
+    
+}
+*/
+.leg{
+    position: absolute;
+    z-index: -2;
+    width: 35%;
+    height: 250%;
+    background: radial-gradient(circle, rgb(255, 208, 154),  bisque);
+    top:226.5%;
+    left: 11%;
+    border-radius: 35%;
+
+    
+}
+#legright{
+    left:60%;
+    %;
+}
+
+.weapon{
+    
+}
+
+.feet{
+    
+}
+
+.shoes{
+    
+}
+
+.aura{
+    width: 200%;
+    height: 600%;
+    z-index: -4;
+    position: absolute;
+    background: radial-gradient(circle, rgb(128, 255, 128), #53ff60, rgba(0, 255, 0, 0.48), rgb(0, 0, 0));
+    top: -100%;
+    left: -50%;
+    
+}
+
+.portal{
+    width: 600px;
+    height: 600px;
+    z-index: -3;
+    position: absolute;
+    background: radial-gradient(circle, rgb(128, 255, 128), #53ff60, green, rgb(255, 173, 173));
+    top: 375%;
+    left: -50%;
+    border-radius: 50%;
+    
+}
+
+.bowtie{
+    
+}
+
+.shirt{
+    
+}
+
+.socks{
+    position: absolute;
+    z-index: -2;
+    width: 32%;
+    height: 225%;
+    background: radial-gradient(circle, #ffdddd, #ffffff, #ffffff, #d6d6d6);
+    top:226.5%;
+    left: 13.5%;
+    border-radius: 25%;
+}
+
+#socksright{
+    width: 34%;
+    left: 58.5%;
+}
+
+.bluestripepants{
+    position: absolute;
+    z-index: 1;
+    width: 30%;
+    height: 20%;
+    background: linear-gradient(360deg, #ffff7b, #ffc400, #ffe348, #ffff7b);
+    top:300%;
+    left: 13.5%;
+    border-radius: 3000% 100% 3000% 100%;
+
+}
+#bluestripepantsright{
+    left: 63.5%;
+    border-radius: 0% 3000% 0% 3000%;
+}
+#armlet{
+    z-index: 1;
+    background: linear-gradient(360deg, #ffff7b, #ffc400, #ffe348, #ffff7b);
+    top:250%;
+    left: -28%;
+    border-radius: 0% 0% 0% 0%;
+}
+#armlet-2{
+    z-index: 1;
+    background: linear-gradient(360deg, #ffff7b, #ffc400, #ffe348, #ffff7b);
+    top:185%;
+    left: 102%;
+    border-radius: 0% 0% 0% 0%;
+    
+}
+
+
+.redstripes{
+    position: absolute;
+    z-index: 2;
+    width: 30%;
+    height: 100%;
+    background: linear-gradient(360deg, rgb(0, 226, 255), #62ff00, #fff148, #e6ff7b);
+    top:320%;
+    left: 15.5%;
+    border-radius: 0% 100% 0% 100%;
+}
+
+#redstripesright{
+    position: absolute;
+    z-index: 50;
+    width: 30%;
+    height: 100%;
+    background-color: rgba(0, 255, 69, 0.79);
+    top:320%;
+    left: 60.5%;
+    border-radius: 100% 0% 100% 0%;
+}
+
+.glove{
+    
+}
+
+.design{
+    
+}
+
+.neck{
+    position: absolute;
+    z-index: 1;
+    width: 17%;
+    height: 10%;
+    background-color: bisque;
+    top:103%;
+    left: 45%;
+    
+}
+
+.torso{
+    position: absolute;
+    z-index: -1;
+    width: 19%;
+    height: 10%;
+    background-color: bisque;
+    top:112.5%;
+    left: 45%;
+    border-radius: 40%;
+
+    
+}
+.bellybutton{
+    position: absolute;
+    z-index: 1;
+    width: 8%;
+    height: 8%;
+    background: linear-gradient(360deg, #ffff7b, #ffc400, #ffe348, #ffff7b);
+    top:225%;
+    left: 49%;
+    border-radius: 50%;
+}
+
+.top{ 
+    position: absolute;
+    z-index: -1;
+    width: 80%;
+    height: 70%;
+    background: linear-gradient(0deg, rgb(241, 255, 162), #ffffff, #fbffc9, #ffffff);
+    top:126%;
+    left: 12.5%;
+    border-radius: 50%;
+    
+    
+}
+
+
+
+
+
