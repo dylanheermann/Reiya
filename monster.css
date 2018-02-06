@@ -424,6 +424,24 @@
     border-radius: 50%; 
 }
 
+@keyframes animText{
+    
+    0% {transform: rotate(0deg)}
+    50% {transform: rotate(360deg)}
+    100% {transform: rotate(0deg)}
+}
+
+h1{
+    color: white;
+    left: 220%;
+    font-size: 120px;
+    position: absolute;
+    bottom: 10%;
+    animation: animText 2.5s infinite;
+     
+}
+
+
 
 
 
